@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "outDir": "build",
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noEmitHelpers": false,
+    "strictNullChecks": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "lib": [
+      "es2015",
+      "es6",
+      "es2016",
+      "dom"
+    ],
+    "allowJs": true
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "files": [
+    "index.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

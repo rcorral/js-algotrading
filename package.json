@@ -1,0 +1,41 @@
+{
+  "name": "algotrading-libraries",
+  "version": "0.0.1",
+  "description": "A group a libraries to help you build algo trading strategies",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "NODE_ENV=test mocha --opts mocha.opts --reporter dot 'src/**/*.spec.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/rcorral/js-algotrading.git"
+  },
+  "author": "Rafael Corral",
+  "copyright": "Rafael Corral",
+  "license": "MIT",
+  "dependencies": {
+    "@types/decimal.js": "0.0.31",
+    "@types/node": "8.0.33",
+    "@types/request": "2.0.4",
+    "@types/request-promise-native": "1.0.7",
+    "decimal.js": "7.3.0",
+    "request": "2.81.0",
+    "request-promise-native": "1.0.5",
+    "tslint": "5.7.0",
+    "typescript": "2.5.3"
+  },
+  "devDependencies": {
+    "@types/chai": "4.0.4",
+    "@types/chance": "0.7.35",
+    "@types/mocha": "2.2.43",
+    "@types/sinon": "2.3.5",
+    "chai": "4.1.2",
+    "chance": "1.0.11",
+    "husky": "0.14.3",
+    "mocha": "4.0.1",
+    "sinon": "4.0.1",
+    "source-map-support": "0.5.0",
+    "ts-node": "3.3.0"
+  }
+}
