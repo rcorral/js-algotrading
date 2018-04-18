@@ -1,11 +1,14 @@
 {
   "name": "algotrading-libraries",
   "version": "0.0.1",
-  "description": "A group a libraries to help you build algo trading strategies",
+  "description":
+    "A group a libraries to help you build algo trading strategies",
   "private": true,
   "scripts": {
     "build": "tsc",
-    "test": "NODE_ENV=test mocha --opts mocha.opts --reporter dot 'src/**/*.spec.ts'"
+    "precommit": "npm test",
+    "test":
+      "NODE_ENV=test mocha --opts mocha.opts --reporter dot 'src/**/*.spec.ts'"
   },
   "repository": {
     "type": "git",
@@ -15,12 +18,10 @@
   "copyright": "Rafael Corral",
   "license": "MIT",
   "dependencies": {
-    "@types/decimal.js": "0.0.31",
     "@types/node": "8.0.33",
     "@types/request": "2.0.4",
     "@types/request-promise-native": "1.0.7",
-    "decimal.js": "7.3.0",
-    "request": "2.81.0",
+    "request": "https://registry.npmjs.org/request/-/request-2.81.0.tgz",
     "request-promise-native": "1.0.5",
     "tslint": "5.7.0",
     "typescript": "2.5.3"

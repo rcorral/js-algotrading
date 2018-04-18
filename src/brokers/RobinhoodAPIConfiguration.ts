@@ -1,0 +1,40 @@
+export const API_URL = "https://api.robinhood.com/";
+
+export const ENDPOINTS = {
+  LOGIN: "api-token-auth/",
+  LOGOUT: "api-token-logout/",
+  INVESTMENT_PROFILE: "user/investment_profile/",
+  ACCOUNTS: "accounts/",
+  ACH_IAV_AUTH: "ach/iav/auth/",
+  ACH_RELATIONSHIPS: "ach/relationships/",
+  ACH_TRANSFERS: "ach/transfers/",
+  ACH_DEPOSIT_SCHEDULES: "ach/deposit_schedules/",
+  APPLICATIONS: "applications/",
+  DIVIDENDS: "dividends/",
+  EDOCUMENTS: "documents/",
+  INSTRUMENT: "instruments/:instrumentID/",
+  INSTRUMENTS: "instruments/",
+  MARGIN_UPGRADE: "margin/upgrades/",
+  MARKETS: "markets/",
+  NOTIFICATIONS: "notifications/",
+  NOTIFICATIONS_DEVICES: "notifications/devices/",
+  ORDER: "orders/:orderID/",
+  ORDERS: "orders/",
+  CANCEL_ORDER: "orders/:orderID/cancel/",
+  PASSWORD_RESET: "password_reset/request/",
+  QUOTES: "quotes/",
+  DOCUMENT_REQUESTS: "upload/document_requests/",
+  USER: "user/",
+
+  USER_ADDITIONAL_INFO: "user/additional_info/",
+  USER_BASIC_INFO: "user/basic_info/",
+  USER_EMPLOYMENT: "user/employment/",
+  USER_INVESTMENT_PROFILE: "user/investment_profile/",
+
+  WATCHLISTS: "watchlists/",
+  POSITIONS: "positions/",
+  FUNDAMENTALS: "fundamentals/:symbol/",
+  SP500_UP: "midlands/movers/sp500/?direction=up",
+  SP500_DOWN: "midlands/movers/sp500/?direction=down",
+  NEWS: "midlands/news/"
+};
